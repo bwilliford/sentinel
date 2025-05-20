@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>Sentinel Devices</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sentinel Devices">
+    <meta name="keywords" content="Sentinel Devices">
+    <meta name="author" content="Blake WIlliford">
+  
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <ul id="optionMenu" class="options">
+        <li id="option-spin" class="active" onclick="changeAnimation('spin')">Spin</li>
+        <li id="option-spinFast" onclick="changeAnimation('spinFast')">SpinFast</li>
+        <li id="option-spinCycle" onclick="changeAnimation('spinCycle')">SpinCycle</li>
+        <li id="option-spinAndGrow" onclick="changeAnimation('spinAndGrow')">SpinGrow</li>
+        <li id="option-spinGrowCycle" onclick="changeAnimation('spinGrowCycle')">SpinGrowCycle</li>
+        <li id="option-spinFade" onclick="changeAnimation('spinFade')">SpinFade</li>
+        <li id="option-drawSlow" onclick="changeAnimation('drawSlow')">DrawSlow</li>
+        <li id="option-drawFast" onclick="changeAnimation('drawFast')">DrawFast</li>
+    </ul>
+    <div id="loader" class="spin"></div>
+</body>
+
+<script>
+    function changeAnimation(name) {
+        //Reset actives
+        optionMenu = document.getElementById("optionMenu");
+        for (let child of optionMenu.children) {
+            child.className = "";
+        }           
+
+        //Set new active
+        document.getElementById("option-"+name).classList.toggle("active");
+
+        //Change loader
+        document.getElementById("loader").className = name;
+    }
+</script>
+</html>

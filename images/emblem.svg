@@ -1,0 +1,23 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+
+</style>
+
+<circle class="draw" cx="44.5478" cy="44.5479" r="19.6453" stroke="white" stroke-width="3.32034"/>
+<circle class="draw" cx="44.5478" cy="81.625" r="5.81059" stroke="white" stroke-width="3.32034"/>
+<circle class="draw" cx="44.5478" cy="7.47082" r="5.81059" stroke="white" stroke-width="3.32034"/>
+<circle class="draw" cx="81.6249" cy="44.5479" r="5.81059" transform="rotate(-90 81.6249 44.5479)" stroke="white" stroke-width="3.32034"/>
+<circle class="draw" cx="7.47076" cy="44.5479" r="5.81059" transform="rotate(-90 7.47076 44.5479)" stroke="white" stroke-width="3.32034"/>
+<circle class="draw" cx="70.7652" cy="70.7654" r="5.81059" transform="rotate(-45 70.7652 70.7654)" stroke="white" stroke-width="3.32034"/>
+<circle class="draw" cx="18.3305" cy="18.3304" r="5.81059" transform="rotate(-45 18.3305 18.3304)" stroke="white" stroke-width="3.32034"/>
+<circle class="draw" cx="70.7651" cy="18.3306" r="5.81059" transform="rotate(-135 70.7651 18.3306)" stroke="white" stroke-width="3.32034"/>
+<circle class="draw" cx="18.3304" cy="70.7653" r="5.81059" transform="rotate(-135 18.3304 70.7653)" stroke="white" stroke-width="3.32034"/>
+<path class="draw" d="M34.0335 80.2415C31.0024 79.4049 29.2325 78.727 26.5627 77.1979L34.0335 80.2415Z" stroke="white" stroke-width="3.32034" stroke-linejoin="round"/>
+<path class="draw" d="M54.7856 80.2415C57.8167 79.4049 59.5866 78.727 62.2563 77.1979L54.7856 80.2415Z" stroke="white" stroke-width="3.32034" stroke-linejoin="round"/>
+<path class="draw" d="M34.0335 8.57757C31.0024 9.41417 29.2325 10.092 26.5627 11.6212L34.0335 8.57757Z" stroke="white" stroke-width="3.32034" stroke-linejoin="round"/>
+<path class="draw" d="M54.7856 8.57757C57.8167 9.41417 59.5866 10.092 62.2563 11.6212L54.7856 8.57757Z" stroke="white" stroke-width="3.32034" stroke-linejoin="round"/>
+<path class="draw" d="M80.2414 54.7856C79.4048 57.8167 78.7269 59.5866 77.1978 62.2563L80.2414 54.7856Z" stroke="white" stroke-width="3.32034" stroke-linejoin="round"/>
+<path class="draw" d="M80.2414 34.0335C79.4048 31.0024 78.7269 29.2325 77.1978 26.5627L80.2414 34.0335Z" stroke="white" stroke-width="3.32034" stroke-linejoin="round"/>
+<path class="draw" d="M8.57757 54.7856C9.41417 57.8167 10.092 59.5866 11.6212 62.2563L8.57757 54.7856Z" stroke="white" stroke-width="3.32034" stroke-linejoin="round"/>
+<path class="draw" d="M8.57758 34.0335C9.41417 31.0024 10.092 29.2325 11.6212 26.5627L8.57758 34.0335Z" stroke="white" stroke-width="3.32034" stroke-linejoin="round"/>
+</svg>
