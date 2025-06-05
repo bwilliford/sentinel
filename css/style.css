@@ -53,6 +53,27 @@ body {
   position: absolute;
   top: calc(50vh - 2rem);
   left: calc(50vw - 2rem);
+  
+}
+
+#text {
+  background: url('../images/logo.svg');
+  background-size: 100% 4rem;
+  height: 4rem;
+  width: 16rem;
+  position: absolute;
+  top: calc(50vh - 2rem);
+  left: calc(50vw - 6rem);
+  overflow: hidden;
+  clip-path: inset(0rem 16rem 4rem 4rem);
+}
+
+.textReveal {
+  animation-name: clipReveal;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 .spin {
@@ -60,6 +81,14 @@ body {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.spinBackwards {
+  animation-name: spinBackwards;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
 
 .spinFast {
@@ -115,6 +144,15 @@ body {
   left: calc(50vw - 2rem) !important;
 }
 
+@keyframes clipReveal {
+  from {
+    clip-path: inset(0rem 0rem 0rem 18rem);
+  }
+  to {
+    clip-path: inset(0rem 0rem 0rem 0rem);
+  }
+}
+
 @keyframes blinkBorder {
   from {
       border-right: 1px solid rgba(255,255,255,0.0);
@@ -127,9 +165,21 @@ body {
 @keyframes spin {
   from {
       transform: rotate(0deg);
+
   }
   to {
       transform: rotate(360deg);
+  }
+}
+
+@keyframes spinBackwards {
+  from {
+      transform: rotate(0deg);
+      left: calc(50vw + 8rem);
+  }
+  to {
+      transform: rotate(-360deg);
+      left: calc(50vw - 11rem);
   }
 }
 
@@ -187,3 +237,4 @@ body {
   opacity: 0;
   z-index: -1;
 }
+
